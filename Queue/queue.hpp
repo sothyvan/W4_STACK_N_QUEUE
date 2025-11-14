@@ -10,7 +10,7 @@ class Patient{
         string patientName;
         int patientID;
         string reason;
-        int priority;
+        int priority; // 0 = normal, 1 = urgent
         Patient *next;
 
         Patient(string name, int id, string r, int pri = 0){
